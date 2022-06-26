@@ -1,0 +1,48 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section__label {
+    font-family: $secondary-font;
+    font-weight: $secondary-fw;
+    font-size: $uppertitle-fz;
+    line-height: 1.17;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: $text-pink-color;
+
+    @include mq('tablet') {
+        font-size: 26px;
+        line-height: 1.15;
+    }
+    @include mq('desktop') {
+        font-size: 30px;
+        line-height: 1.13;
+        letter-spacing: 0.04em;
+    }
+}
+
+.section__title {
+    font-family: $secondary-font;
+    font-weight: $secondary-fw;
+    font-size: $primary-title-size;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: $primary-red-color;
+
+    @include mq('tablet') {
+        font-size: 48px;
+    }
+    @include mq('desktop') {
+        font-size: 58px;
+        line-height: 1.2;
+        letter-spacing: 0.06em;
+    }
+}

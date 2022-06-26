@@ -1,0 +1,22 @@
+// utils
+
+@import './vars';
+
+@import './mixins';
+@import './visually-hidden';
+
+
+// base styles
+@import './common';
+@import './reset';
+@import './container';
+
+// layouts
+@import './hero-header';
+@import './products';
+@import './about';
+@import './advantages';
+@import './gallery';
+@import './customer-reviews';
+@import './contacts';
+@import './footer';
